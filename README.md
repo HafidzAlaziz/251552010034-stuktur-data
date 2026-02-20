@@ -1,3 +1,3 @@
-# stuktur-data
+# Stuktur_Data
 # Nim    : 251552010034
 # Nama   : Muhammad Hafidz Alaziz
