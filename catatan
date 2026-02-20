@@ -1,0 +1,11 @@
+append()     = Menambahkan item ke akhir list
+clear()      = Menghapus semua item dari list
+copy()       = Mengembalikan salinan dari list
+count()      = Mengembalikan jumlah kemunculan item tertentu
+extend()     = Menambahkan elemen dari iterable (seperti list lain) ke akhir list
+index()      = Mengembalikan indeks dari item pertama yang cocok
+insert()     = Menyisipkan item pada indeks tertentu
+pop()        = Menghapus item pada indeks tertentu (default: terakhir)
+remove()     = Menghapus item pertama yang cocok nilainya
+reverse()    = Membalik urutan list
+sort()       = Mengurutkan list
