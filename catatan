@@ -1,3 +1,4 @@
+----------------------Catatan 1-------------------------------------------------------------------
 append()     = Menambahkan item ke akhir list
 clear()      = Menghapus semua item dari list
 copy()       = Mengembalikan salinan dari list
@@ -9,3 +10,23 @@ pop()        = Menghapus item pada indeks tertentu (default: terakhir)
 remove()     = Menghapus item pertama yang cocok nilainya
 reverse()    = Membalik urutan list
 sort()       = Mengurutkan list
+
+---------------------Catatan 2---------------------------------------------------------------------
+tuple        = Data yang unik dan tidak bisa diubah                (cocok untuk menyimpan data yang tetap)
+set          = Data yang unik (tidak duplikat) tapi bisa diubah    (cocok untuk menyimpan data yang tidak boleh duplikat)
+---------------------------------------------------------------------------------------------------
+add ()                        = Menambah elemen ke dalam set
+difference()                  = Membandingkan data dengan data 1 dan 2 atau yg lainnya
+diference_update()            = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu menghapus data yang tidak ada
+discard()                     = Menghapus elemen dari set jika ada, jika tidak ada tidak terjadi apa-apa
+intersection()                = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengambil data yang sama
+intersection_update()         = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengambil data yang sama dan menghapus data yang tidak ada
+isdisjoint()                  = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengembalikan True jika tidak ada data yang sama
+isubset()                     = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengembalikan True jika data merupakan subset dari data yang lain
+issuperset()                  = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengembalikan True jika data merupakan superset dari data yang lain
+pop()                         = Menghapus dan mengembalikan elemen acak dari set
+remove()                      = Menghapus elemen dari set, jika elemen tidak ada akan terjadi error
+symmetric_difference()        = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengambil data yang tidak sama
+symmetric_difference_update() = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengambil data yang tidak sama dan menghapus data yang sama
+union()                       = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengambil semua data tanpa duplikat
+update()                      = Menambahkan elemen dari iterable (seperti set lain) ke set
