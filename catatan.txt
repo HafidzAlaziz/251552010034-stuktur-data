@@ -30,3 +30,16 @@ symmetric_difference()        = Membandingkan data dengan data 1 dan 2 atau yg l
 symmetric_difference_update() = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengambil data yang tidak sama dan menghapus data yang sama
 union()                       = Membandingkan data dengan data 1 dan 2 atau yg lainnya lalu mengambil semua data tanpa duplikat
 update()                      = Menambahkan elemen dari iterable (seperti set lain) ke set
+
+---------------------------------Catatan 3-------------------------------------------------------------------------------------------------------------------------------
+clear()         = Menghapus semua elemen dari dictionary
+copy()          = Mengembalikan salinan dari dictionary.
+fromkeys()      = Mengembalikan dictionary dengan kunci yang ditentukan dan nilai yang diberikan
+get()           = Mengembalikan nilai dari kunci yang ditentukan
+items()         = Mengembalikan daftar yang berisi tuple untuk setiap pasangan kunci-nilai
+keys()          = Mengembalikan daftar yang berisi kunci-kunci dari dictionary.
+pop()           = Menghapus elemen dengan kunci yang ditentukan
+popitem()       = Menghapus pasangan kunci-nilai yang terakhir dimasukkan.
+setdefault()    = Mengembalikan nilai dari kunci yang ditentukan. Jika kunci tidak ada, menambahkan kunci dengan nilai yang ditentukan
+update()        = Memperbarui dictionary dengan pasangan kunci-nilai yang ditentukan
+values()        = Mengembalikan daftar dari semua nilai yang ada dalam dictionary
