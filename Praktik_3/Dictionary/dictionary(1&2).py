@@ -9,10 +9,10 @@ print("Warna:", user["Warna"])
 print("Umur:", user["Umur"])
 
 user["email"] = "kcing8089@gmail.com"
-user["warna"] = "Putih"
+user["warna"] = 
 user["umur"] = "4 Tahun"
 
-print("---------Setelah diubah:---------")
+print("---------Setelah di edit:---------")
 print("Hewan:", user["Hewan"])
 print("Warna:", user["Warna"])
 print("Umur:", user["Umur"])
