@@ -43,3 +43,5 @@ popitem()       = Menghapus pasangan kunci-nilai yang terakhir dimasukkan.
 setdefault()    = Mengembalikan nilai dari kunci yang ditentukan. Jika kunci tidak ada, menambahkan kunci dengan nilai yang ditentukan
 update()        = Memperbarui dictionary dengan pasangan kunci-nilai yang ditentukan
 values()        = Mengembalikan daftar dari semua nilai yang ada dalam dictionary
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
