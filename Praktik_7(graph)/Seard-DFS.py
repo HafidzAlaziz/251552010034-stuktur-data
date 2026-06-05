@@ -19,7 +19,6 @@ class Graph:
             return False
         return dfs(start)
     
-if __name__ == "__main__":
-    g = Graph()
-    print("Lutpi ke Fajrul ?", g.search("Lutpi", "Fajrul"))
-    print("Lutpi ke Nabhan?", g.search("Lutpi", "Nabhan"))
+g = Graph()
+print("Lutpi ke Fajrul ?", g.search("Lutpi", "Fajrul"))
+print("Lutpi ke Nabhan?", g.search("Lutpi", "Nabhan"))
