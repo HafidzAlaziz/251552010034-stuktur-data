@@ -1,3 +1,4 @@
+arr = [38, 27, 43, 3, 9, 82, 10]
 def sorting(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
@@ -26,6 +27,5 @@ def sorting(arr):
             j += 1; k += 1
     return arr
 
-input_arr = [38, 27, 43, 3, 9, 82, 10]
-print(f"List asli: {input_arr}")
-print(f"Hasil sort: {sorting(input_arr.copy())}")
+print(f"List asli: {arr}")
+print(f"Hasil sort: {sorting(arr.copy())}")
