@@ -1,4 +1,3 @@
-arr = [38, 27, 43, 3, 9, 82, 10]
 def sorting(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
@@ -26,6 +25,6 @@ def sorting(arr):
             arr[k] = R[j]
             j += 1; k += 1
     return arr
-
+arr = [38, 27, 43, 3, 9, 82, 10]
 print(f"List asli: {arr}")
 print(f"Hasil sort: {sorting(arr.copy())}")
